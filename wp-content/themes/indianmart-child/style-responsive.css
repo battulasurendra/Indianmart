@@ -1,0 +1,2585 @@
+@media only screen and (max-width: 992px){
+    body section {
+        overflow-x: hidden;
+    }
+    
+    nav.navbar > .container-fluid {
+        padding: 0;
+    }
+    
+    nav.navbar.dark .navbar-header,
+    .navbar-header {
+        width: 115px;
+    }
+    
+    a.custom-logo-link {
+        padding: 0 0 0 5px;        
+    }    
+    
+    .navbar-middle-container {
+        padding: 10px 10px 0;
+    }
+    
+    .collapse.navbar-collapse.navbar-wrapper {
+        padding: 12px 10px 0 10px;
+        display: table-cell !important;
+    }
+    
+    .menuSearchBar {
+        padding: 0 7px;
+    }
+    
+    nav.navbar.dark .innerNavbar .menuSearchBar {
+        margin: 10px 0 10px 105px;
+    }
+    
+    nav.navbar .innerNavbar .stickyMenu > nav > ul.ubermenu-nav > li.navSprite{
+        float: left;
+        width: auto;
+        min-width: auto;
+        clear: none;
+    }
+    
+    .navbar .subMenu .navSprite > a,
+    .navbar .ubermenu li.navSprite > .ubermenu-target {
+        padding: 7px 6px 7px 28px;
+        font-size: 12px;
+    }
+    
+    .navbar li.navSprite.navIcon1 > .ubermenu-submenu > li.ubermenu-column-1-2,
+    .navbar li.navSprite.navIcon2 > .ubermenu-submenu > li.ubermenu-column-1-2{
+        width: auto;
+        min-width: auto;
+        display: table-cell;
+        float: none;
+        table-layout: fixed;
+    }
+    
+    .navbar li.navSprite.navIcon1 > .ubermenu-submenu > li.ubermenu-column-1-2:first-child,
+    .navbar li.navSprite.navIcon2 > .ubermenu-submenu > li.ubermenu-column-1-2:first-child{
+        max-width: 50%;
+    }
+    
+    .navbar .ubermenu.ubermenu-responsive .ubermenu-column-1-3 {
+        min-width: auto;
+        clear: none !important;
+    }
+    
+    .navbar .subMenu .navSprite > a,
+    .navbar .ubermenu li.navSprite.ubermenu-has-submenu-mega > .ubermenu-target {
+        padding-right: 26px;
+    }
+    
+    .navSprite.navIcon1 > a.ubermenu-target::before,
+    .navSprite.navIcon2 > a.ubermenu-target::before,
+    .navSprite.navIcon3 > a.ubermenu-target::before,
+    .navSprite.navIcon4 > a.ubermenu-target::before{
+        margin-left: 3px;
+    }
+
+    header .ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-full_width,
+    header .ubermenu .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar {
+        max-width: 768px !important;
+    }
+    
+    .navbar-cart {
+        width: 105px;
+        padding: 0 10px 0 0px;
+    }
+    
+    nav.navbar.dark .navbar-cart {
+        width: 70px;
+    }
+    
+    .subMenu,
+    .menu-header-submenu-container{
+        width: auto;
+        padding-top: 7px;
+    }
+    
+    ul#menu-header-submenu > li > a {
+        padding: 7px 15px 7px 20px;
+        line-height: 24px;
+    }
+    
+    .cart-btn {
+        width: 60px;
+        float: left;
+        display: none;
+    }
+    
+    nav.navbar.dark .cart-btn {
+        display: block;
+    }
+    
+    a.cart-link {
+        font-size: 0;
+        padding: 9px;
+        width: auto;
+        line-height: 0;
+        display: block;
+    }
+    
+    nav.navbar.dark a.cart-link {
+        padding: 14px;
+    }
+    
+    a.cart-link span.cart-count {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 2px;
+        top: 3px;
+        right: 3px;
+        left: auto;
+        overflow: hidden;
+    }
+    /*************** MyIndianFood page ***************/
+    #mifSec1 {
+        background-position: left;
+        background-size: inherit;
+        padding: 50px 0;
+    }
+    
+    #mifSec2 .secBlock .bannerImage{
+        vertical-align: bottom;
+    }
+    /*************** MyIndianFood page ***************/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .navbar li.navSprite.navIcon1 > .ubermenu-submenu,
+    .navbar li.navSprite.navIcon2 > .ubermenu-submenu {
+        display: table;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    body section {
+        overflow-x: hidden;
+    }
+                    /*************** header ***************/
+    header {
+        height: 113px;
+    }
+    
+    nav.navbar > .container-fluid {
+        display: table;
+        padding: 0;
+        background-color: #fff;
+        margin-top: -1px;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    nav.navbar > .container-fluid.text-center {
+        display: block;
+        padding: 0;
+        background-color: transparent;
+        margin: auto;
+    }
+    
+    nav.navbar > .container-fluid > div {
+        display: table-cell !important;
+        vertical-align: middle;
+        float: none;
+    }
+    
+    nav.navbar.dark .navbar-header, .navbar-header {
+        width: 100px;
+        height: 60px;
+        overflow: hidden;
+        margin: auto !important;
+    }
+    
+    .collapse.navbar-collapse.navbar-wrapper {
+        padding: 0px;
+        width: 100px;
+    }
+    
+    nav.navbar.dark .navbar-cart,
+    nav.navbar .navbar-cart {
+        width: 160px;
+        padding: 0;
+        position: static;
+        top: auto;
+        right: auto;
+        margin: auto;
+    }
+    
+    nav.navbar.dark .innerNavbar .menuSearchBar,
+    nav.navbar .innerNavbar .menuSearchBar {
+        margin: 5px;
+        padding: 0;
+    }
+    
+    nav.navbar a.custom-logo-link {
+        padding: 5px !important;
+    }
+    
+    .navbar-middle-container {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .navbar-content{
+        display: block;
+        width: 100%;
+        padding: 0;
+        vertical-align: top;
+        height: 0;
+    }
+    
+    .ubermenu-tabs-group.ubermenu-column.ubermenu-column-1-4.ubermenu-submenu.ubermenu-submenu-id-615.ubermenu-submenu-type-auto.ubermenu-submenu-type-tabs-group,
+    header .ubermenu li[class*="navMenuMain"] > ul.ubermenu-submenu.ubermenu-submenu-type-mega {
+        overflow-y: auto;
+    }
+    
+    nav.navbar .stickyMenu > nav > ul > li{
+        display: none !important;
+    }
+    
+    nav.navbar .stickyMenu > nav > ul > li:first-child {
+        display: block !important;
+    }
+    
+    .navbar .ubermenu li.ubermenu-item.navSprite.shopIcon > a.ubermenu-target {
+        padding: 18px 25px 18px 40px;
+    }
+    
+    #menu-item-576 {
+        width: 100%;
+        text-align: right;
+    }
+    
+    .menuSearchBar {
+        position: fixed;
+        top: 67px;
+        left: 5px;
+        right: 5px;
+        z-index: 0;
+        transition: all 0.3s ease;
+        box-shadow: 0px 0px 8px 1px rgba(218, 240, 251, 1);
+    }
+    
+    .down .menuSearchBar {
+        top: 2px;
+        z-index: -1;
+    }
+    
+    nav.navbar.dark .subMenu,
+    .subMenu, .menu-header-submenu-container {
+        width: auto;
+        padding-top: 0;
+        display: inline-block;
+    }
+    
+    #menu-header-submenu {
+        margin: auto;
+    }
+    
+    ul#menu-header-submenu > li > a {
+        padding: 3px 15px 3px 20px;
+        line-height: 24px;
+    }
+    
+    nav.navbar .cart-btn,
+    nav.navbar.dark .cart-btn{
+        width: 50px;
+        clear: none;
+        display: inline-block;
+    }
+    
+    .navSprite.bagIcon {
+        width: 40px;
+        height: 40px;
+        background-size: 40px 2800px;
+        background-position: 0 -1240px !important;
+    }
+    
+    nav.navbar a.cart-link ,
+    nav.navbar.dark a.cart-link {
+        padding: 10px 5px;
+        width: auto;
+        background: transparent !important;
+    }
+    
+    .cart-btn:hover .svgicon-menu5,
+    .cart-btn .svgSprite.svgicon-menu5 {
+        background-size: 546px 326px;
+        background-position: -227px -3px;
+        width: 45px;
+        height: 45px;
+    }
+    
+    a.cart-link span.cart-count {
+        width: 22px;
+        height: 22px;
+        font-size: 11px;
+        line-height: 22px;
+        left: 25px;
+        top: 9px;
+        bottom: auto;
+        margin: auto;
+        vertical-align: middle;
+        padding: 0;
+    }
+    
+    .cart-btn:hover span.cart-count {
+        color: #ffffff;
+        background-color: #ee5b31;
+    }
+    
+    #menu-header-submenu > li.open > .dropdown-menu {
+        position: absolute;
+        float: left;
+        padding: 5px 0;
+        width: 100%;
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
+    
+    #page.scroll.down .noticeHolder{
+        top: 60px;
+    }
+    
+    .noticeHolder,
+    #page.scroll .noticeHolder{
+        top: 121px;
+        transition: all 0.3s ease;
+    }
+    
+    header .ubermenu ul.ubermenu-tabs-group {
+        border-right: 0px dashed #B3B3B3 !important;
+    }
+    
+    header .ubermenu li.dashBorder.right {
+        border-right: 0px dashed #B3B3B3 !important;
+    }
+    
+    header .ubermenu li.dashBorder.left {
+        border-left: 0px dashed #B3B3B3 !important;
+    }
+    
+    header .navbar .navIcon3.navSprite > div > ul.ubermenu-row {
+        margin-top: 4px;
+        width: 100%;
+        display: block;
+    }
+    
+    header .navbar .navIcon3.navSprite > div > ul.ubermenu-row > li{
+        width: 100%;
+        display: block;
+        border-right: none !important;
+        border-bottom: 1px dashed #B3B3B3 !important;
+        padding-bottom: 0;       
+    }
+    
+    header .navbar .navIcon3.navSprite > div > ul.ubermenu-row > li:nth-child(3){
+        border-bottom: 0px dashed #B3B3B3 !important;
+    }
+    
+    header .navbar .navIcon3.navSprite > div > ul.ubermenu-row > li > ul > li{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .menuBanner {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    .menuBanner > div {
+        display: table-cell;
+        vertical-align: top;
+    }
+    
+    header .ubermenu .navMenuMain0 ul.ubermenu-submenu.ubermenu-submenu-type-mega .menuBanner > .menuBannerImage.maxColumn{
+        width: 120px;
+        padding: 10px 0 10px 10px;
+        height: auto;
+    }
+    
+    .menuBannerContent {
+        padding: 10px 20px;
+    }
+    
+    .menuBannerTitle {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+    
+    .menuBannerDesc{
+        padding: 2px 0 6px;
+    }
+                    /*************** header ***************/
+}
+
+@media only screen and (max-width: 992px) {
+    .subscribePopup > div.subscribeImage {
+        display: none;
+    }
+    .subscribePopup > div.subscribeContent {
+        padding: 15px;
+    }
+    
+    div#popmake-930 {
+        margin: auto;
+        max-width: 100% !important;
+        left: 10px !important;
+        right: 10px !important;
+        width: auto !important;
+    }
+    
+    .bannerSlide .bannerImage {
+        position: relative;
+        display: none;
+    }
+    
+    .subscribeForm .subGroup input[type="email"],
+    #sec8 .subscribeForm .subGroup input[type="email"] {
+        max-width: none;
+        border-right: 1px solid #cccccc;
+    }
+    
+    .recipeBlockRow3 .recipeBlockBtn.btn.noarrow {
+        padding: 6px 10px;
+        min-width: auto;
+    }
+
+    #recipelistSec1 .recipelistbanner {
+        padding: 30px 0;
+        background-position: left 50%;
+    }
+    
+    #recipelistSec2 {
+        background-color: #F1F2F2;
+        height: auto;
+        overflow: visible;
+        width: 100%;
+    }
+    
+    #recipelistSec2 .recipelistoption {
+        display: table;
+        width: 100%;
+        max-width: 360px;
+        margin-left: 0;
+        position: relative;
+    }
+    
+    #recipelistSec2 .recipelistoption::after,
+    #recipelistSec2 .recipelistoption::before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        bottom: 0;
+    }    
+    
+    #recipelistSec2 .recipelistoption::after{
+        width: 30px;
+        height: auto;
+        margin: auto;
+        background: #F1F2F2;
+    }
+    
+    #recipelistSec2 .recipelistoption::before {
+        border-top: 7px solid #4D4D4D;
+        border-right: 7px solid transparent;
+        border-left: 7px solid transparent;  
+        z-index: 1;      
+    }
+    
+    #recipelistSec2 .recipelistoption > span {
+        display: table-cell;
+        vertical-align: top;
+        float: none !important;
+        margin: auto !important;
+    }
+    
+    .recipecategorylist {
+        border: 1px solid #cccccc;
+        border-radius: 0;
+    }
+    
+     .dropdown-toggle{
+        display: block;
+    }
+    
+    .recipelist {
+        width: 100% !important;
+    }
+    
+    .recipecatlist.d-table {
+        padding: 0;
+        background-color: #F1F2F2;
+        border-bottom: 2px solid #aeaeae;
+        border-radius: 0;
+    }
+    
+    .d-table {
+        display: none;
+    }
+    
+    .recipecatlist > li {
+        width: 100%;
+        height: auto;
+        text-align: left;
+        background: #F1F2F2;
+        display: block;
+        padding: 0;
+    }
+    
+    .recipecatlist > li::after{
+        display: none;
+    }
+    
+    .recipelistbtn {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        text-align: left;
+        padding: 5px 10px;
+    }
+    
+    button.recipelistbtn span {
+        display: table-cell;
+        vertical-align: top;
+        float: none !important;
+        margin: auto !important;
+    }
+    
+    .recipecategorylist.sticky .recipe-category,
+    .recipe-category {
+        padding: 0px 10px;
+        line-height: 30px;
+    }
+    
+    .recipecategorylist.sticky .spriteRecipe,
+    .dropdown span.spriteRecipe {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .dropdown .spriteRecipe {
+        background-size: 100%;
+    }
+    
+    .r-icon-beverages{background-position:0 -90px;}
+    .r-icon-breads{background-position:0 -150px;}
+    .r-icon-condiments{background-position:0 -210px;}
+    .r-icon-currie{background-position:0 -270px;}
+    .r-icon-miscellaneous{background-position:0 -330px;}
+    .r-icon-rice{background-position:0 -390px;}
+    .r-icon-snacks{background-position:0 -450px;}
+    .r-icon-sweets{background-position:0 -510px;}
+
+    .recipe-item.active .r-icon-beverages{background-position:0 -120px;}
+    .recipe-item.active .r-icon-breads{background-position:0 -180px;}
+    .recipe-item.active .r-icon-condiments{background-position:0 -240px;}
+    .recipe-item.active .r-icon-currie{background-position:0 -300px;}
+    .recipe-item.active .r-icon-miscellaneous{background-position:0 -360px;}
+    .recipe-item.active .r-icon-rice{background-position:0 -420px;}
+    .recipe-item.active .r-icon-snacks{background-position:0 -480px;}
+    .recipe-item.active .r-icon-sweets{background-position:0 -540px;}
+
+    .recipe-item:hover .r-icon-beverages{background-position:0 -120px;}
+    .recipe-item:hover .r-icon-breads{background-position:0 -180px;}
+    .recipe-item:hover .r-icon-condiments{background-position:0 -240px;}
+    .recipe-item:hover .r-icon-currie{background-position:0 -300px;}
+    .recipe-item:hover .r-icon-miscellaneous{background-position:0 -360px;}
+    .recipe-item:hover .r-icon-rice{background-position:0 -420px;}
+    .recipe-item:hover .r-icon-snacks{background-position:0 -480px;}
+    .recipe-item:hover .r-icon-sweets{background-position:0 -540px;}
+    
+    #recipelistSec3 .recipeBlock {
+        max-width: 100%;
+        width: 47.8%;
+        margin: 20px 1%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .recipeBlockRow2 > div {
+        width: 100%;
+        padding: 5px 0px 10px;
+    }
+    .recipeBlockRow3 .recipeauthor {
+        font-size: 15px;
+        line-height: 1.1;
+    }
+    .recipeSec3row1 > div {
+        padding: 15px;
+    }
+    #recipeSec3 h3.secHeader3 {
+        padding: 25px 0;
+    }
+    .step-text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #recipeSec3 div label.checkboxText {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    #recipeSec3 .recipe_ingredient_checkbox_table td:last-child {
+        font-size: 15px;
+    }
+    .footrow2 {
+        color: #5D5D5D;
+        padding: 20px 15px;
+    }
+    .footerList {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    
+/*************** Final Icon png sprite ***************/
+.sprite {
+    background-size: 148px 1958px;
+}
+
+.sprite-AccountIcon1 {
+    width: 95px;
+    height: 71px;
+    background-position: -4px -4px;
+}
+
+.sprite-AccountIcon2 {
+    width: 95px;
+    height: 71px;
+    background-position: -4px -83px;
+}
+
+.sprite-AccountIcon3 {
+    width: 95px;
+    height: 71px;
+    background-position: -4px -162px;
+}
+
+.sprite-ContactUsIcon1 {
+    width: 58px;
+    height: 58px;
+    background-position: -4px -242px;
+    bottom: 16px;
+}
+
+.sprite-ContactUsIcon2 {
+    width: 58px;
+    height: 58px;
+    background-position: -4px -308px;
+    bottom: 16px;
+}
+
+.sprite-edit-address,
+.sprite-FAQ-Delivery {
+    width: 46px;
+    height: 38px;
+    background-position: -4px -374px;
+}
+
+li.is-active > a > .sprite-edit-address,
+li:hover > a > .sprite-edit-address,
+li:hover > a > .sprite-FAQ-Delivery {background-position: -4px -421px;}
+
+.sprite-FAQ-Delivery-main {
+    width: 60px;
+    height: 43px;
+    background-position: -4px -467px;
+}
+
+.sprite-edit-account,
+.sprite-FAQ-General {
+    width: 46px;
+    height: 38px;
+    background-position: -4px -518px;
+}
+
+li.is-active > a > .sprite-edit-account,
+li:hover > a > .sprite-edit-account,
+li:hover > a > .sprite-FAQ-General {background-position: -4px -565px;}
+
+.sprite-FAQ-General-main {
+    width: 60px;
+    height: 43px;
+    background-position: -4px -611px;
+}
+
+.sprite-payment-methods,
+.sprite-FAQ-Payment {
+    width: 46px;
+    height: 38px;
+    background-position: -4px -662px;
+}
+
+li.is-active > a > .sprite-payment-methods,
+li:hover > a > .sprite-payment-methods,
+li:hover > a > .sprite-FAQ-Payment {background-position: -4px -709px;}
+
+.sprite-FAQ-Payment-main {
+    width: 60px;
+    height: 43px;
+    background-position: -4px -755px;
+}
+
+.sprite-orders,
+.sprite-FAQ-Shopping {
+    width: 46px;
+    height: 38px;
+    background-position: -4px -806px;
+}
+
+li.is-active > a > .sprite-orders,
+li:hover > a > .sprite-orders,
+li:hover > a > .sprite-FAQ-Shopping {background-position: -4px -853px;}
+
+.sprite-FAQ-Shopping-main {
+    width: 60px;
+    height: 43px;
+    background-position: -4px -899px;
+}
+
+.sprite-PrivacyIcon1 {
+    width: 49px;
+    height: 54px;
+    background-position: -4px -950px;
+    bottom: 12px;
+}
+
+.sprite-Register {
+    width: 57px;
+    height: 66px;
+    background-position: -4px -1013px;
+}
+
+.sprite-TandcIcon1 {
+    width: 44px;
+    height: 56px;
+    background-position: -4px -1087px;
+    bottom: 10px;
+}
+
+.sprite-checkoutIcon1 {
+    width: 64px;
+    height: 64px;
+    background-position: -4px -1152px;
+    bottom: 18px;
+}
+
+.sprite-checkoutIcon2 {
+    width: 88px;
+    height: 56px;
+    background-position: -4px -1223px;
+    bottom: 12px;
+}
+
+.sprite-checkoutIcon3 {
+    width: 68px;
+    height: 64px;
+    background-position: -4px -1287px;
+    bottom: 5px;
+}
+
+.sprite-checkoutIcon4 {
+    width: 56px;
+    height: 64px;
+    background-position: -4px -1359px;
+    bottom: 20px;
+}
+
+.sprite-checkoutIcon5 {
+    width: 140px;
+    height: 114px;
+    background-position: -4px -1431px;
+}
+
+.sprite-wishlistIcon {
+    width: 77px;
+    height: 77px;
+    background-position: -5px -2366px;
+    bottom: 7px;
+}
+
+i[class*="sprite-submitIcon"]{
+    width: 60px;
+    height: 60px;
+    top: 0;
+}
+
+.sprite-submitIcon1 {background-position: -4px -1553px;}
+.sprite-submitIcon2 {background-position: -4px -1621px;}
+.sprite-submitIcon3 {background-position: -4px -1689px;}
+.sprite-submitIcon4 {background-position: -4px -1757px;}
+.sprite-submitIcon5 {background-position: -4px -1825px;}
+/*************** Final Icon png sprite ***************/
+     
+    .bannerTitle1 {
+        top: -5px;
+        left: 195px;
+        font-size: 20px;
+        letter-spacing: 0.7px;
+    }
+    
+    .bannerTitle2 {
+        font-size: 76px;
+        letter-spacing: -2px;
+        line-height: 68px;
+        padding: 5px 0;
+    }
+    
+    .banerTitle3 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.7px;
+    }
+    
+    .bannerTitle4 {
+        font-size: 72px;
+        line-height: 70px;
+        letter-spacing: 1px;
+    }
+    
+    .bannerTitle5 {
+        font-size: 79px;
+        line-height: 67px;
+        letter-spacing: -2px;
+    }
+    
+    .bannerSub {
+        font-size: 40px;
+        letter-spacing: 0.6px;
+        line-height: 40px;
+    }
+    
+    .bannerSideKick {
+        font-family: 'Gotham';
+        font-size: 33px;
+        line-height: 33px;
+    }
+    
+    .min25Banner .bannerSideKick {
+        left: 20%;   
+    }
+    
+    .banner2 .content_bg .content_bg_image,
+    .banner3 .content_bg .content_bg_image {
+        max-width: 330px;
+        max-height: 321px;
+    }
+    
+    .bannerSlide {
+        height: 360px;
+    }
+    
+    .banner3 .bannerTextImage,
+    .banner2 .bannerTextImage {
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    .prodSlider {
+        position: relative;
+        padding: 0 10px;
+    }
+    .prodSlider .prodSlide {
+        margin: auto;
+        max-width: 250px;
+    }
+    .prodSlide {
+        display: table !important;
+    }
+    .prodTile {
+        width: auto;
+        padding: 15px 15px;
+    }
+    .prodTile:hover .prodWishlistIcon > button.tm-woowishlist-button,
+    .prodTile .prodWishlistIcon > button.tm-woowishlist-button.loading,
+    .prodTile .prodWishlistIcon > button.tm-woowishlist-button.tm-woowishlist-remove,
+    .prodTile .prodWishlistIcon > button.tm-woowishlist-button.in_wishlist {
+        right: 10px;
+    }
+
+    .prodTile .prodWishlistIcon > button.tm-woowishlist-button {
+        right: 10px;
+    }
+
+    .prodTile .quantity-nav {
+        display: block;
+    }
+    .exploreRow {
+        margin: 25px 0 20px;
+        padding: 0;
+    }
+    .prodTileImg {
+        height: auto;
+        overflow: visible;
+    }
+    .prodTile .prodWishlistIcon {
+        top: -10px;
+    }
+    section.productsSec {
+        padding: 5px 0;
+    }
+    .prodTileHead {
+        text-align: center;
+    }
+    .prodTileHead a h5 {
+        font-size: 18px;
+    }
+    .prodTile:hover {
+        box-shadow: none;
+    }
+    section h5 {
+        font-size: 20px;
+    }
+    .btnHolder .btn.noeffect {
+        line-height: 15px;
+    }
+    .btnHolder .btn.noeffect::before,
+    .btnHolder .btn.noeffect::after {
+        top: 4px;
+    }
+    
+    .prodSlider.owl-carousel .owl-nav .owl-next {
+        right: -7px;
+    }
+    .prodSlider.owl-carousel .owl-nav .owl-prev {
+        left: -7px;
+    }
+    .maxColumn .rsImage img {
+        min-width: auto;
+        min-height: auto;
+        max-width: none;
+        max-height: none;
+        width: auto;
+        height: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .recepieSlide {
+        display: inline-block;
+        height: auto !important;
+        width: 100%;
+        float: left;
+    }
+    
+    .recepieSlide > div {
+        display: block;
+        vertical-align: middle;
+        float: left;
+        width: 100%;
+    }
+    
+    .recepieSliderContent {
+        padding: 20px 15px;
+    }
+
+    section .recepieSliderContent .rsDesc.secTxt {
+        padding: 15px 0;
+    }
+    section .recepieSliderContent .rsAttributes {
+        position: relative;
+        left: 0;
+        display: table;
+        margin: auto;
+    }
+    .recipeAttribute {
+        display: table-cell!important;
+        vertical-align: middle;
+    }
+    
+    .recipeSlider.owl-carousel .owl-nav .owl-next{
+        top: -20%;
+        right: 10px;
+    }
+    
+    .recipeSlider.owl-carousel .owl-nav .owl-prev {
+        top: -20%;
+        left: 10px;
+    }
+    
+    section h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .secHeaderRow::before, .secHeaderRow::after {
+        display: none;
+    }
+    
+    section#sec7 {
+        padding: 30px 0 20px 0;
+    }
+    .sec7row2 {
+        padding: 15px;
+    }
+    section#sec8 {
+        background: none;
+        padding: 30px 0;
+    }
+    #sec8 .subscribeTitle {
+        line-height: 23px;
+    }
+    .footrow1 {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px;
+    }
+
+    .footrow2 {
+        color: #5D5D5D;
+        padding: 15px;
+    }
+    #sec8 .subscribeSec {
+        display: table;
+        width: 100%;
+        padding: 0 15px;
+        table-layout: fixed;
+    }
+    #sec8 .subscribeTitle {
+        font-size: 18px;
+    }
+    #sec8 .subscribeText {
+        margin: 0px 0 10px;
+    }
+    .subscribeForm .subGroup > div.btnHolder {
+        width: auto;
+    }
+    #sec8 .subscribeText {
+        font-size: 16px;
+    }
+    #sec8 .subscribeTitle {
+        font-size: 14px;
+    }
+    .subscribeForm .subGroup > div {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        margin: auto;
+    }
+    .footerLogo {
+        width: 100px;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .footerColumn {
+        margin: 10px 0;
+        padding: 0;
+    }
+    .footerColumnMain {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    footer .copyrightText {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: -0.2px;    
+    }
+    
+    section h3 {
+        font-size: 24px;
+        line-height: 1;
+    }
+    .secHeaderRow {
+        padding: 0 0 15px;
+    }
+    #shopSec2 {
+        padding: 15px;
+    }
+    
+    .min30Banner .bannerRibbon {
+        font-weight: 500;
+        font-size: 12px;
+        position: absolute;
+        top: 18px;
+        left: 15%;
+        line-height: 30px;
+    }
+    
+    .products-filters::before {
+        display: none;
+    }
+    
+    .woocommerce #shopSec2 .woocommerce-result-count,
+    .woocommerce-page #shopSec2 .woocommerce-result-count {
+        float: none;
+        padding: 10px;
+        text-align: left;
+        margin: 0 auto 20px auto;
+        border: 1px solid #cccccc;
+        display: table;
+        line-height: 1;
+    }
+    
+    #sp_sec1 {
+        padding: 30px 0 0;
+    }
+    
+    .products-pagination {
+        padding: 10px 0 20px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    .woocommerce_sp_image {
+        padding: 15px 15px;
+    }
+    
+    .woocommerce div.product .woocommerce_sp_addtocart form.cart select{
+        text-align: center;
+    }
+    
+    ul.secList li {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    
+    .woocommerce div.product .sp_sec1_row1_col2 {
+        padding-left: 0;
+    }
+    
+    .woocommerce div.product .woocommerce_sp_title .product_title.entry-title {
+        font-size: 16px;
+        line-height: 1.3;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .woocommerce #shopSec2 .woocommerce-ordering,
+    .woocommerce-page #shopSec2 .woocommerce-ordering {
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+    .woocommerce div.product .woocommerce_sp_addtocart form.cart table.variations {
+        display: inline-block;
+        float: none;
+        vertical-align: middle;
+        padding: 10px;
+        margin-left: 0px !important;
+    }
+    .woocommerce_sp_select_qnty.select-qty {
+        display: inline-block;
+        min-width: auto;
+        vertical-align: middle;
+        padding: 10px;
+        margin-left: -10px;
+    }
+
+    .sort-prefix {
+        float: none;
+    }
+    form.cart .btnHolder.addCart {
+        margin-right: 0;
+    }
+    form.cart .btnHolder {
+        float: none;
+        vertical-align: middle;
+    }
+    .woocommerce div.product .sp_sec1_row1_col1 {
+        padding-right: 0px;
+    }
+    
+    body section.related.products {
+        overflow: visible;
+    }
+    
+    #recipelistSec1 .recipelistbanner img {
+        max-width: 100%;
+        max-height: none;
+        padding: 0;
+        height: 100%;
+    }
+
+
+    /*appetizers*/
+    #recipelistSec3 .recipeBlock {
+        max-width: 100%;
+        width: auto;
+    }
+
+
+    .recipeBlockRow2 > div {
+        width: 100%;
+        padding: 5px 0px 10px;
+    }
+    #recipelistSec3 .recipeBlock:hover {
+        box-shadow: none;
+    }
+
+    #recipelistSec4 .disp-cell {
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+    }
+    #recipelistSec4 .disp-table {
+        width: auto;
+    }
+    .recipelistsec4-text {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 15px;
+    }
+    .author {
+        font-size: 22px;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+    .recipe-bottom-text .btnHolder {
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+    #recipelistSec3 .recipeBlockRow3 {
+        padding: 15px 5px;
+    }
+    /* recipe page */
+    .recipeSec2row1 {
+        padding: 15px 15px;
+    }
+    .recipeSec2row2 {
+        padding: 15px 0;
+    }
+    
+    .recipeSec2row2.row > .detailsRow{
+        display: block;
+    }
+
+    .recipeSec2row2.row > .detailsRow > div {
+        display: inline-block;
+        float: none;
+        width: 30%;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+    
+    section h2.secHeader2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    section h4 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .detailsRow .col-xs-3 {
+        padding: 0;
+    }
+    #recipeSec2 .recipeIcon {
+        height: 32px;
+    }
+    .foodkind {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 33px;
+    }
+    #recipeSec2 .iconText {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #recipeSec2 .shortDescription {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 15px;
+    }
+    .recipeSec3row1 > div {
+        display: table;
+        padding: 15px;
+    }
+    #recipeSec3 h3.secHeader3 {
+        padding: 15px 0;
+        font-size: 19px;
+        line-height: 1;
+    }
+    .columnContent {
+        padding: 0;
+    }
+    #recipeSec3 .recipeSteps {
+        padding: 0 0 20px;
+    }
+    #recipeSec3 .step-index {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .recipeSteps .step-text {
+        font-size: 13px;
+        line-height: 21px;
+        padding-right: 0;
+    }
+    #recipeSec3 .recipe_ingredient_checkbox_table {
+        padding: 0;
+    }
+    #recipeSec3 div label.checkboxText {
+        font-size: 14px;
+        line-height: 18px;
+        vertical-align: middle;
+    }
+    #recipeSec3 .recipe_ingredient_checkbox_table td:first-child {
+        width: 35px;
+    }
+    #recipeSec3 .recipe_ingredient_checkbox_table td:last-child {
+        width: 100px;
+        font-size: 14px;
+        line-height: 18px;
+        vertical-align: middle;
+    }
+    #recipeSec5 {
+        padding: 15px 15px;
+    }
+    .relatedRecipeSlide {
+        margin: 0;
+    }
+    #recipeSec4 .recipeSec4row1 {
+        padding: 0;
+    }
+    .recipeAction {
+        padding: 0;
+    }
+    #recipeSec4 .recipeAction-icon {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    #recipeSec4 .recipeAction-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #recipeSec5 #products-container {
+        padding: 0 20px 20px;
+    }
+
+    #products-container .prodTile {
+        margin: auto;
+    }
+    
+    /*Timeline styles*/
+    section .secBlock.TL-holder {
+        display: block;
+        margin: 25px 20px 0;
+        width: auto;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 6px 6px 0px -2px rgba(218, 240, 251, 1);
+    }
+    
+    section .secBlock.disp-table .disp-cell {
+        display: block;
+        padding: 15px 15px 25px;
+    }
+    
+    .secTimeline {
+        display: none
+    }
+    
+    .small-heading {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        letter-spacing: 0;
+    }
+    
+    .blockContent p.secText {
+        padding: 0 0 15px 0;
+    }
+    
+    section .secText {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    section .blockContent {
+        padding-left: 0;
+        display: inline-block !important;
+        width: 100% !important;
+    }
+    
+    /* culture page */
+    .bannerTitle7 {
+        font-size: 14px;
+        line-height: 18px;
+        margin: auto;
+    }
+    
+    #cultureSec2 {
+        padding: 15px 0 35px;
+        background: #f2f2f2;
+    }
+    
+    .bannerSlide .bannerImage img {
+        min-width: 100%;
+        min-height: auto;
+        max-width: 100%;
+        max-height: none;
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: auto;
+    }
+    
+    /* region page */
+    .regionMenu {
+        height: auto;
+        padding: 0;
+        display: none;
+        background-color: #F1F2F2;
+        border-bottom: 2px solid #aeaeae;
+        border-radius: 0;
+    }
+    
+    nav.navbar.regionNavbar {
+        top: 125px;
+        background-color: #F1F2F2;
+        height: auto;
+        width: 100%;
+        transition: all 0.1s ease;
+    }
+    
+    nav.navbar.regionNavbar > .container-fluid {
+        display: block;
+    }
+    
+    nav.navbar.regionNavbar > .container-fluid > div.regionlist {
+        border: 1px solid #cccccc;
+        border-radius: 0;
+        display: block !important;
+        max-width: 360px;
+        margin-left: 0;
+    }
+    
+    .regionNavbar .regionlist .regionlistoption {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        position: relative;
+        text-align: left;
+        line-height: 45px;
+        padding: 5px 10px;
+        color: #999999;
+    }
+    
+    .regionNavbar .regionlistoption::after,
+    .regionNavbar .regionlistoption::before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        bottom: 0;
+    }    
+    
+    .regionNavbar .regionlistoption::after{
+        width: 30px;
+        height: auto;
+        margin: auto;
+        background: #F1F2F2;
+    }
+    
+    .regionNavbar .regionlistoption::before {
+        border-top: 7px solid ;
+        border-right: 7px solid transparent;
+        border-left: 7px solid transparent;  
+        z-index: 1;      
+    }
+    
+    i[class*="regionSprite"],
+    i[class^="regionSprite"] {
+        width: 51px;
+        height: 45px;
+        background-size: 57px 918px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+    }
+    
+    .regionSprite-CI-gray {background-position: -3px -54px;}
+    .regionSprite-EI-gray {background-position: -3px -207px;}
+    .regionSprite-NEI-gray {background-position: -3px -360px;}
+    .regionSprite-NI-gray {background-position: -3px -513px;}
+    .regionSprite-SI-gray {background-position: -3px -666px;}
+    .regionSprite-WI-gray {background-position: -3px -819px;}
+    li.active .regionSprite-CI-gray {background-position: -3px -3px;}
+    li.active .regionSprite-EI-gray {background-position: -3px -156px;}
+    li.active .regionSprite-NEI-gray {background-position: -3px -309px;}
+    li.active .regionSprite-NI-gray {background-position: -3px -462px;}
+    li.active .regionSprite-SI-gray {background-position: -3px -615px;}
+    li.active .regionSprite-WI-gray {background-position: -3px -768px;}
+    li:hover .regionSprite-CI-gray {background-position: -3px -3px;}
+    li:hover .regionSprite-EI-gray {background-position: -3px -156px;}
+    li:hover .regionSprite-NEI-gray {background-position: -3px -309px;}
+    li:hover .regionSprite-NI-gray {background-position: -3px -462px;}
+    li:hover .regionSprite-SI-gray {background-position: -3px -615px;}
+    li:hover .regionSprite-WI-gray {background-position: -3px -768px;}
+
+    
+    .regionMenu > li.regionMenu-item{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        background: #F1F2F2;
+        display: block;
+        padding: 0;
+    }
+    
+    .regionMenu > li.regionMenu-item button{
+        line-height: 45px;
+        padding: 9px 5px;
+        vertical-align: top;
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+    
+    .regionMenu > li.regionMenu-item > button::after{
+        display: none;
+    }
+    
+    #regionSec1 {
+        padding: 65px 0 60px;
+    }
+    
+    #regionSec1 .disp-table .disp-cell {
+        display: block;
+        vertical-align: middle;
+        padding: 15px;
+        float: none;
+    }
+    .blockContent.text-right p.secText {
+        padding: 0;
+    }
+    .blockContent.text-right {
+        text-align: left;
+    }
+    .headerImage img {
+        height: auto !important;
+    }
+    .bannerSlide .bannerImage img.no-stretch {
+        display: none;
+    }
+    
+    .bannerRibbon {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .bannerRibbon::before {
+        border-width: 15px 5px;
+        left: -10px;
+    }
+    
+    .bannerRibbon::after {
+        border-width: 15px 5px;
+        right: -10px;
+    }
+    
+    .bannerTitle.inline {
+        display: block;
+    }
+    
+    .comboBanner .bannerText3::after,
+    .comboBanner .bannerText3::before,
+    .min25Banner .bannerText3::after,
+    .min25Banner .bannerText3::before {
+        right: -10%;
+        left: -10%;
+    }
+    
+    /* cart page */
+    #cartSec {
+        padding: 15px 0;
+    }
+    #cartSec .cartTableSec table.shop_table tr {
+        border: 1px solid #cccccc;
+        display: inline-block;
+        width: 100%;
+        margin: 0 0px 15px;
+        border-radius: 4px;
+        padding: 3px 5px;
+        position: relative;
+    }
+    
+    #cartSec .cartTableSec table.shop_table.footerTable tr {
+        border: none;
+        padding: 0;
+    }
+
+    .woocommerce #content table.cart .product-thumbnail,
+    .woocommerce table.cart .product-thumbnail,
+    .woocommerce-page #content table.cart .product-thumbnail,
+    .woocommerce-page table.cart .product-thumbnail {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    #cartSec .cartTableSec table.shop_table td.product-thumbnail {
+        display: table-cell!important;
+        width: 104px;
+        float: none;
+        vertical-align: middle;
+        border: 0;
+        padding-top: 5px;
+    }
+    #cartSec .cartTableSec table.shop_table td.product-thumbnail a{
+        display: inline-block;
+    }
+    #cartSec .cartTableSec table.shop_table tbody tr td.product-thumbnail::before{
+        display: inline-block;
+    }
+    #cartSec .cartTableSec table.shop_table td.product-name {
+        display: table-cell !important;
+        float: none;
+        width: auto;
+        padding: 15px;
+        border: 0;
+    }
+    
+    #cartSec .cartTotalSec table.shop_table .order-total td {
+        background: transparent;
+    }
+    
+    #cartSec .cartTableSec .product-quantity .quantity,
+    #cartSec .cartTableSec .product-quantity .product-range #cartSec .cartTableSec .product-quantity .product-price {
+        margin-top: 7px;
+    }
+    #cartSec .cartTableSec table.shop_table td {
+        width: 25%;
+        border-width: 1;
+        position: relative;
+        padding-top: 30px;
+        display: inline-block!important;
+        float: left;
+        text-align: center;
+    }
+    .product-name::before {
+        display: block;
+        float: none;
+    }
+    .woocommerce-page table.shop_table_responsive tr td.product-name::before,
+    .woocommerce-page table.shop_table_responsive tr td.product-range::before,
+    .woocommerce-page table.shop_table_responsive tr td.product-price::before {
+        display: block;
+    }
+
+    body.woocommerce a.remove,
+    #cartSec .cartTableSec a.remove {
+        top: 28px;
+        left: 0;
+        margin: auto;
+        position: relative;
+    }
+
+    #cartSec .cartTableSec table.shop_table {
+        border: none;
+        padding: 0;
+    }
+
+    .woocommerce-page table.shop_table_responsive tr td.product-remove::before {
+        content: "Remove"!important;
+    }
+    
+    .woocommerce-page #content table.cart td.actions div#couponSec{
+        width: 100%;
+        max-width: none;
+    }
+
+    #cartSec table.footerTable td.actions input#coupon_code {
+        width: 100% !Important;
+        border-right: 1px solid #e6e6e6;
+        margin-bottom: 10px;
+    }
+    #cartSec table.footerTable td.actions .coupon .blackBtn {
+        border-radius: 4px;
+        width: 100%;
+        line-height: 16px;
+    }
+    .woocommerce table.cart td.actions .btnHolder input[name="update_cart"] {
+        margin-top: 20px;
+    }
+    #cartSec .cartTableSec table.shop_table td.actions:first-child {
+        width: 100%;
+        padding: 0;
+    }
+    table.footerTable td.actions div#couponSec {
+        width: auto;
+    }
+    #cartSec .cart_table_sec table.shop_table.footerTable {
+        border: none;
+    }
+
+    .quantity-nav {
+        display: none;
+    }
+    .btn.nakedBtn.fullRangeBtn.noarrow {
+        margin: 15px 0;
+    }
+
+    #cartSec .cartTableSec table.shop_table td {
+        padding: 10px 0;
+        vertical-align: middle;
+        background: #ffffff;
+    }
+
+    #cartSec .cart_table_sec table.shop_table td.actions {
+        text-align: center;
+    }
+
+    #cartSec .cartTableSec table.shop_table {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .woocommerce table.shop_table_responsive tr td,
+    .woocommerce-page table.shop_table_responsive tr td {
+        text-align: center !important;
+    }
+    .quantity-nav {
+        display: none;
+    }
+    #cartSec .cartTableSec table.shop_table .product-quantity input {
+        height: 25px;
+    }
+    .woocommerce table.shop_table_responsive tr td::before,
+    .woocommerce-page table.shop_table_responsive tr td::before {
+        font-weight: 500;
+        font-family: 'Gotham';
+        text-transform: capitalize;
+        padding-bottom: 7px;
+    }
+
+    .woocommerce table.shop_table_responsive tr td::before,
+    .woocommerce-page table.shop_table_responsive tr td::before {
+        float: none;
+    }
+    .woocommerce td.product-quantity {
+        min-width: auto;
+    }
+    
+    .woocommerce_form_section {
+        padding: 30px 15px;
+        margin: 0 0 15px;
+    }
+    
+    .woocommerce_form_inner_sec {
+        padding: 30px 15px;
+        margin: 0 0 30px;
+    }
+    
+    #checkoutSec {
+        padding: 30px 5px 15px;
+    }
+    
+    .woo_checkout_login_sec {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .lost_password.text-right {
+        text-align: left;
+        padding: 15px 0;
+    }
+    
+    #checkoutSec .vc_column-inner {
+        padding: 0;
+    }
+    
+    #checkoutSec .vc_column-inner {
+        padding: 0;
+    }
+    
+    body .woocommerce form .form-row input.input-text,
+    body .woocommerce form .form-row textarea {
+        padding: 10px 15px;
+        margin: 10px auto;
+    }
+    .woo_checkout_guest_sec {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .woo_checkout_guest_sec::before {
+        content: none;
+    }
+
+    .guestImage {
+        position: relative;
+        display: block;
+        margin-top: 20px;
+    }
+    
+    #customer_details p#shipping_country_field strong,
+    #customer_details p#billing_country_field strong{
+        margin: 7px auto;
+    }
+    
+    section #customer_details #ship-to-different-address,
+    section #customer_details .woocommerce-account-fields {
+        padding: 10px 0;
+    }
+    
+    section #customer_details .woocommerce-account-fields .btn-group{
+        padding-left: 0;
+    }
+    
+    .woo_checkout_order_table_sec table.shop_table td.product-name,
+    .woo_checkout_order_table_sec table.shop_table td.product-quantity {
+        font-size: 14px;
+    }
+    .woo_checkout_order_table_sec table.shop_table td.product-name span {
+        font-size: 13px;
+    }
+    
+    #customer_details .form-row {
+        width: 100%;
+        padding: 0;
+    }
+    
+    section #customer_details .checkboxText,
+    section #customer_details h3 {
+        font-size: 14px;
+    }
+    
+    .orderSummarySec .secHeaderRow {
+        margin: 20px 0 10px;
+    }
+    
+    .woo_checkout_order_table_sec table.shop_table{
+        border: none;
+    }
+
+    #order_review table.shop_table,
+    #order_review table.shop_table > thead,
+    #order_review table.shop_table > tbody,
+    #order_review table.shop_table > tfoot,
+    #order_review table.shop_table > thead th,
+    #order_review table.shop_table > thead tr,
+    #order_review table.shop_table > tbody tr,
+    #order_review table.shop_table > thead td,
+    #order_review table.shop_table > tbody td {
+        display: block;
+    }
+    
+    #order_review table.shop_table > tbody td.product-thumbnail {
+        display: table-cell;
+        width: 104px!important;
+        float: none;
+        padding: 30px 6px 5px;
+    }
+    #order_review table.shop_table > tbody tr {
+        border: 1px solid #cccccc;
+        display: inline-block;
+        width: 100%;
+        margin: 0 0px 15px;
+        border-radius: 4px;
+        padding: 0;
+        position: relative;
+    }
+    #order_review table.shop_table > thead tr {
+        display: none !Important;
+    }
+    #order_review table.shop_table > tbody td.product-name {
+        display: table-cell;
+        float: none;
+        width: auto;
+        text-align: left;
+        padding: 30px 10px 5px;
+    }
+    #order_review table.shop_table > tbody td {
+        width: 33.3%;
+        border-width: 0;
+        position: relative;
+        padding: 30px 10px 6px;
+        display: inline-block;
+        float: left;
+    }
+
+
+    #order_review table.shop_table tr::before {
+        top: 0;
+    }
+    
+    table.shop_table td.product-thumbnail::before {
+        content: "Product:" !important;
+    }
+    
+    table.shop_table td.product-thumbnail + td.product-name::before {
+        content: none !important;
+    }
+
+    table.shop_table td.product-price::before {
+        content: "Price"!important;
+    }
+
+    table.shop_table td.product-quantity::before {
+        content: "Quantity"!important;
+    }
+
+    table.shop_table td.product-total::before {
+        content: "Total"!important;
+    }
+    #order_review table.shop_table tr::after,
+    #order_review table.shop_table tr::before {
+        content: '';
+        width: auto;
+        height: 24px;
+        background: #e6e6e6;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 0;
+    }
+    #order_review table.shop_table td::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        width: auto;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-size: 12px;
+        line-height: 23px;
+        letter-spacing: 0.72px;
+        font-weight: 600;
+        color: #4D4D4D;
+        text-transform: capitalize;
+        z-index: 1;
+        display: block !Important;
+    }
+
+    #order_review table.shop_table tfoot > tr {
+        border: none;
+        margin: 0;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #order_review table.shop_table tfoot tr::after,
+    #order_review table.shop_table tfoot tr::before {
+        display: none;
+    }
+
+    #order_review table.shop_table tfoot td.custom_td {
+        padding: 0;
+        text-align: left;
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+    
+    .woocommerce-checkout #order_review #payment{
+        padding-top: 30px;
+    }
+
+    .checkout-footer.inline {
+        width: 100%;
+    }
+
+    table#checkout_order_table_footer {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    table#checkout_order_table_footer td {
+        width: auto;
+        text-align: right;
+    }
+    table#woo_checkout_order_table_footer {
+        background: #F2F2F2;
+        border: 1px solid #BCBEC0;
+        width: 100%;
+        padding: 15px;
+        border-collapse: separate;
+    }
+    table#woo_checkout_order_table_footer td {
+        width: auto;
+        text-align: right;
+    }
+    .woocommerce-checkout #payment div.form-row {
+        margin-bottom: 0;
+    }
+    .woocommerce .woocommerce_form_section form .form-row.terms.wc-terms-and-conditions label {
+        font-size: 13px;
+    }
+    .checkout-footer.inline {
+        width: 100%;
+    }
+    table#checkout_order_table_footer {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    
+    body table tr .td_spacer .inner_td_spacer{
+        display: none;
+    }
+    
+    #loginSec {
+        padding: 35px 5px 10px;
+    }
+    
+    #loginSec > .loginSecrow1 {
+        padding: 0;
+    }
+    
+    div#customer_login {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    
+    .woo_account_login_image_sec {
+        padding: 85px 0 0;
+    }
+    
+    #loginSec .loginImage {
+        margin-bottom: 0;
+    }
+    
+    #loginSec .loginTextImage {
+        width: 270px;
+        top: -55px;
+    }
+    
+    .woo_account_login_form_sec {
+        padding: 25px 15px 0px;
+    }
+    
+    p.woocommerce-LostPassword.lost_password{
+        top: -40px;
+    }
+    
+    .registerActionsRow > .text-right ,
+    .loginActionsRow > .text-right {
+        text-align: center;
+    }
+    
+    body .woocommerce .woocommerce_form_section form .loginActionsRow > div:first-child {
+        margin: 10px 0 20px;
+        text-align: center;
+    }
+    
+    #customer_registration .form-row {
+        float: left;
+        width: 100%;
+        padding: 0;
+        clear: none;
+    }
+    
+    .loginCallText{
+        display: none;
+    }
+    
+    .woo_register_footer {
+        padding: 10px 20px 30px;
+    }    
+    
+    .accountSec2row1.container.force-margin-auto {
+        padding: 0 5px;
+    }
+    
+    .accountMenu{
+        margin-top: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        width: auto;
+    }
+    
+    .accountMenu > li.woocommerce-MyAccount-navigation-link{
+        padding: 0 5px;
+    }
+    
+    .accountMenu > li.woocommerce-MyAccount-navigation-link a {
+        font-size: 11px;
+        line-height: 17px;
+        letter-spacing: 0.2px;
+        padding: 45px 5px 10px;
+    }
+    
+    #accountSec2 .woocommerce-MyAccount-content {
+        margin-bottom: 30px !important;
+        padding: 45px 5px 20px;
+    }
+    
+    #accountSec2 .woocommerce-MyAccount-content .form-row {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #accountSec2 .woocommerce-MyAccount-content .form-row input.input-text {
+        margin: 10px auto !important;
+    }
+    
+    .secHeaderRow.text-center.loginHeader {
+        padding-bottom: 15px;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr {
+        margin: 15px 10px;
+        padding: 0;
+        position: relative;
+        float: left;
+        border-radius: 6px;
+        border: 1px solid #cccccc;
+        overflow: hidden;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td:first-child{
+        border-left: 0;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td{
+        border: 0;
+        width: 50%;
+        float: left;
+        padding: 10px 0;
+        border: 1px solid #cccccc;
+        border-width: 0 1px 1px 0;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td:nth-child(2n){
+        border-right: none;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td:last-child{
+        border-bottom: none;
+        border-right: 0;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td::before{
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td.woocommerce-orders-table__cell-order-actions{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .woocommerce table.shop_table_responsive.my_account_orders tbody tr td.woocommerce-orders-table__cell-order-actions::before{
+        display: none;
+    }
+    
+    #accountSec2 .woocommerce-MyAccount-content table.shop_table.cust_table.my_account_orders .btnHolder .btn{
+        width: 70%;
+    }
+    
+    .order-text {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        vertical-align: top;
+        color: #4d4d4d;
+        padding: 10px 10px 20px;
+    }
+    
+    .woocommerce-order-details {
+        padding: 0 10px;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody td {
+        padding: 10px;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody tr {
+        border: 1px solid #cccccc;
+        display: inline-block;
+        width: 100%;
+        margin: 0 0px 15px;
+        border-radius: 4px;
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody tr td{
+        display: table-cell !important;
+        width: 104px;
+        float: none;
+        vertical-align: middle;
+        border: 0;
+        padding-top: 5px;
+        border: 1px solid #cccccc;
+        border-width: 0 1px 0 0;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody tr td.woocommerce-table__product-name.product-name{
+        display: block !important;
+        width: auto;
+        text-align: left !important;
+        border-width: 0 0 1px 0;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody tr td::before{
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody tr td:last-child{
+        border-right: none;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody tr td.woocommerce-table__product-name.product-name::before{
+        text-align: left;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tbody td.woocommerce-table__product-total.product-total::before {
+        content: attr(data-title) ": " !important;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot th {
+        display: block !important;
+        width: 100%;
+        margin: 15px 0 0;
+        overflow: hidden;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr {
+        border: 1px solid #cccccc;
+        border-radius: 0;
+        display: table !important;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        border-width: 1px 1px 0 1px;
+        table-layout: fixed;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr:first-child {
+        border-radius: 4px 4px 0 0;
+        margin-top: 15px;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr:last-child {
+        border-radius: 0 0 4px 4px;
+        border-bottom: 1px solid #cccccc;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr th {
+        width: 50%;
+        display: table-cell !important;
+        border: none;
+        margin: auto;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr td {
+        width: 50%;
+        display: table-cell !important;
+        border: none;
+        border-left: 1px solid #cccccc;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr:last-child td {
+        font-size: 18px;
+    }
+    
+    .woocommerce table.shop_table.cust_table.woocommerce-table--order-details tfoot tr td::before {
+        display: none;
+    }
+    
+    section.woocommerce-columns--addresses.addresses > div {
+        padding: 50px 10px 0;
+    }
+    
+    section.woocommerce-columns--addresses.addresses > div address {
+        padding: 10px;
+        border-radius: 4px;
+    }
+    
+    section.woocommerce-columns--addresses.addresses .woocommerce-column--shipping-address address {
+        margin-bottom: 10px !important;
+    }
+    
+    #accountSec2 .woocommerce-columns--addresses.addresses .secHeader{
+        padding: 0;
+    }
+    
+    #accountSec2 .sprite-checkoutIcon4{
+        bottom: 8px;
+    }
+    
+    .bannerSlide.banner1 {
+        height: 360px;
+        padding-top: 30px;
+    }
+    
+    .bannerSlide.banner1 .bannerTitle2{
+        line-height: 66px;
+    }
+    
+    .bannerSlide.banner1 .bannerTitle3 {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        color: #BAD685;
+        font-weight: 500;
+        display: inline-block;
+        position: absolute;
+        top: -3px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .bannerSlide.banner1 .bannerTitle4 {
+        font-size: 80px;
+        line-height: 72px;
+        letter-spacing: -4.64px;
+        padding: 25px 0 0;
+    }
+    
+    .bannerSlide.banner1 .title_border::before,
+    .bannerSlide.banner1 .title_border::after {
+        content: '';
+        width: 50px;
+        height: 2px;
+        top: 11px;
+        margin: auto;
+    }
+    .bannerSlide.banner1 .title_border::before{
+        left: -15px;
+    }
+    .bannerSlide.banner1 .title_border::after{
+        right: -15px;
+    }
+    .bannerSlide.banner1 .title_span::before,
+    .bannerSlide.banner1 .title_span::after{
+        display: none;
+    }
+    
+    #submitSec2 {
+        padding: 30px 0 35px;
+    }
+    
+    .form_section,
+    .form_inner_sec{
+        padding: 35px 10px 20px;
+        margin: 0 0 35px;    
+    }
+    
+    #submit_form .dishDetailsSec {
+        padding: 5px 5px 0;
+    }
+    
+    .dishDetailsSec .detailTile {
+        margin: auto;
+        padding: 10px 5px 0;
+        float: left;
+        display: table;
+        width: 50%;
+        table-layout: fixed;
+    }
+    
+    .dishDetailsSec .detailTile > div {
+        display: table-cell !important;
+        vertical-align: top !important;
+    }
+    
+    #submit_form .recipeIcon {
+        width: 40px;
+        height: 30px;
+        padding: 1px 2px;
+        margin-right: 12px;
+        text-align: center;
+    }
+    
+    .recipeIcon > svg {
+        vertical-align: top;
+        display: inline-block;
+    }
+    
+    .iconOptions .iconOptionBtn.btn{
+        padding: 8px 28px 7px 8px;
+    }
+    
+    .form_section form#submit_form .categoryOptions {
+        padding: 0;
+    }
+    
+    .form_section form#submit_form .categoryOptions > div.radio {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    ul.token-input-list li {
+        padding: 0px 7px;
+    }
+    
+    body form .form-row input.input-text,
+    body form .form-row textarea{
+        padding: 10px 17px;
+    }
+    
+    .ingredients_field-wrapper .form-row-group .col-sm-8 {
+        padding-bottom: 7px !important;
+    }
+    
+    .ingredients_field-wrapper .form-row-group .col-sm-8 + .col-sm-4.col-xs-12 {
+        padding-top: 0 !important;
+    }
+    
+    .addBtn{
+        padding: 13px;
+    }
+    
+	section .secBlock.TL-holder {
+		display: block;
+		margin: 25px 20px 0;
+		width: auto;
+		background: #fff;
+		border-radius: 5px;
+		box-shadow: 6px 6px 0px -2px rgba(218, 240, 251, 1);
+	}	
+	.regionRecipes .recipeShortSlider {
+        margin-left: 0;
+    }
+    
+    .recipeShortSlider.owl-carousel .owl-nav .owl-next,
+    .recipeShortSlider.owl-carousel .owl-nav .owl-prev {
+        width: 30px;
+        padding: 6px 10px;
+        height: 30px;
+    }
+    .recipeShortSlider.owl-carousel .owl-nav .owl-prev {
+        left: -28px;
+    }
+    .recipeShortSlider.owl-carousel .owl-nav .owl-next {
+        right: -28px;
+    }
+    
+    .regionRecipes .recipeSliderItem {
+        max-width: 110px;
+    }
+    
+    .regionRecipes .recipeSliderItem a {
+        max-height: 75px;
+    }
+    
+    .regionRecipes .recipeSliderItem span.recipeName {
+        line-height: 23px;
+    }
+    
+    .blockContent.text-right .regionRecipes .recipeShortSlider {
+        margin-left: 0;
+    }
+    
+    .blockContent.text-right .regionRecipes {
+        float: none;
+    }
+    
+    .site-main #northIndia {
+        background-color: #f2f2f2;
+    }
+    
+    .blockContent .regionRecipes {
+        max-width: 250px;
+        margin: auto;
+    }
+    
+    .regionRecipes .recipeSliderHead {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        text-align: center;
+        padding-top:20px;
+    }
+    #northIndia .beforeEle {
+        display: none;
+    }
+    #northIndia .afterEle {
+        display: none;
+    }
+    
+    .title_border::before,
+    .title_border::after {
+        content: '';
+        width: 100px;
+        height: 3px;
+        background: #1a1a1a;
+        position: absolute;
+        top: 16px;
+        margin: auto;
+    }
+    
+    .pongalBanner .bannerTitle2 {
+        line-height: 78px;
+        top: -6px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .pongalBanner .bannerBand {
+        top: -5px;
+    }
+    
+    .festivalBannerSlider .content_bg .content_bg_image {
+        max-width: 300px;
+        max-height: 305px;
+    }
+    
+    #festivalSec2 {
+        padding: 15px 0 40px;
+        background: #f2f2f2;
+    }
+    
+    /*************** MyIndianFood page ***************/
+    #mifSec1 {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #mifSec2 .secBlock{
+        margin-bottom: 20px !important;
+    }
+    
+    #mifSec2 .secBlock .bannerImage{
+        display: none;
+    }
+    
+    #mifSec2 .bannerTitle8,
+    #mifSec1 .bannerTitle8 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .bannerTitle9 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -1.0px;
+    }
+    
+    #mifSec2 .mifSec2row1,
+    #mifSec2 .mifSec2row2,
+    #mifSec2 .mifSec2row3,
+    #mifSec2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*************** MyIndianFood page ***************/
+}
+
+@media only screen and (max-width: 480px) {
+    form.cart .btnHolder {
+        min-width: 49%;
+        margin: 10px 0;
+        float: none;
+        vertical-align: middle;
+    }
+}

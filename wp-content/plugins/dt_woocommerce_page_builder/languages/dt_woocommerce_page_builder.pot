@@ -1,0 +1,529 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DT WooCommerce Page Builder\n"
+"POT-Creation-Date: 2016-11-21 15:55+0700\n"
+"PO-Revision-Date: 2016-11-21 15:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: dt_woocommerce_page_builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dt_woocommerce_page_builder.php:147
+msgid "Back to Order list"
+msgstr ""
+
+#: dt_woocommerce_page_builder.php:155
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://www.woothemes.com/"
+"woocommerce/\" target=\"_blank\">WooCommerce</a></strong> plugin to be "
+"installed and activated on your site."
+msgstr ""
+
+#: dt_woocommerce_page_builder.php:163
+#, php-format
+msgid ""
+"<strong>%s</strong> Compatible with <strong>Visual Composer</strong> plugin. "
+"So You can install <strong><a href=\"http://bit.ly/vcomposer\" target="
+"\"_blank\">Visual Composer</a></strong> plugin to be used into Visual "
+"Composer page builder."
+msgstr ""
+
+#: includes/admin.php:34 includes/admin.php:85 includes/admin.php:104
+msgid "Product Custom Page"
+msgstr ""
+
+#: includes/admin.php:45 includes/admin.php:90 includes/admin.php:110
+msgid "None"
+msgstr ""
+
+#: includes/admin.php:50 includes/admin.php:93 includes/admin.php:114
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/admin.php:136
+msgid "Before Login Page"
+msgstr ""
+
+#: includes/admin.php:137
+msgid ""
+"Custom page before user login. Go to build a custom MyAccount Before login "
+"page, use the elements in the \"DT Woo MyAccount Before Login\". You can "
+"also add the steps/description how to create an account for this custom page."
+msgstr ""
+
+#: includes/dt-template-functions.php:41
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the Place Order button at the bottom of the page."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:11
+msgid "Single Product Image"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:13 includes/vc-map/vc-map.php:29
+#: includes/vc-map/vc-map.php:45 includes/vc-map/vc-map.php:61
+#: includes/vc-map/vc-map.php:77 includes/vc-map/vc-map.php:93
+#: includes/vc-map/vc-map.php:109 includes/vc-map/vc-map.php:125
+#: includes/vc-map/vc-map.php:141 includes/vc-map/vc-map.php:157
+#: includes/vc-map/vc-map.php:173 includes/vc-map/vc-map.php:189
+#: includes/vc-map/vc-map.php:205 includes/vc-map/vc-map.php:248
+#: includes/vc-map/vc-map.php:296 includes/vc-map/vc-map.php:318
+#: includes/vc-map/vc-map.php:340 includes/vc-map/vc-map.php:357
+#: includes/vc-map/vc-map.php:374
+msgid "DT Woo Single product"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:18 includes/vc-map/vc-map.php:34
+#: includes/vc-map/vc-map.php:50 includes/vc-map/vc-map.php:66
+#: includes/vc-map/vc-map.php:82 includes/vc-map/vc-map.php:98
+#: includes/vc-map/vc-map.php:114 includes/vc-map/vc-map.php:130
+#: includes/vc-map/vc-map.php:146 includes/vc-map/vc-map.php:162
+#: includes/vc-map/vc-map.php:178 includes/vc-map/vc-map.php:194
+#: includes/vc-map/vc-map.php:237 includes/vc-map/vc-map.php:280
+#: includes/vc-map/vc-map.php:301 includes/vc-map/vc-map.php:323
+#: includes/vc-map/vc-map.php:345 includes/vc-map/vc-map.php:362
+#: includes/vc-map/vc-map.php:379 includes/vc-map/vc-map.php:398
+#: includes/vc-map/vc-map.php:414 includes/vc-map/vc-map.php:458
+#: includes/vc-map/vc-map.php:476 includes/vc-map/vc-map.php:492
+#: includes/vc-map/vc-map.php:508 includes/vc-map/vc-map.php:525
+#: includes/vc-map/vc-map.php:541 includes/vc-map/vc-map.php:558
+#: includes/vc-map/vc-map.php:574 includes/vc-map/vc-map.php:600
+#: includes/vc-map/vc-map.php:617 includes/vc-map/vc-map.php:634
+#: includes/vc-map/vc-map.php:659 includes/vc-map/vc-map.php:676
+#: includes/vc-map/vc-map.php:693
+msgid "Extra class name"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:21 includes/vc-map/vc-map.php:37
+#: includes/vc-map/vc-map.php:53 includes/vc-map/vc-map.php:69
+#: includes/vc-map/vc-map.php:85 includes/vc-map/vc-map.php:101
+#: includes/vc-map/vc-map.php:117 includes/vc-map/vc-map.php:133
+#: includes/vc-map/vc-map.php:149 includes/vc-map/vc-map.php:165
+#: includes/vc-map/vc-map.php:181 includes/vc-map/vc-map.php:197
+#: includes/vc-map/vc-map.php:240 includes/vc-map/vc-map.php:283
+#: includes/vc-map/vc-map.php:304 includes/vc-map/vc-map.php:326
+#: includes/vc-map/vc-map.php:348 includes/vc-map/vc-map.php:365
+#: includes/vc-map/vc-map.php:382 includes/vc-map/vc-map.php:401
+#: includes/vc-map/vc-map.php:417 includes/vc-map/vc-map.php:461
+#: includes/vc-map/vc-map.php:479 includes/vc-map/vc-map.php:495
+#: includes/vc-map/vc-map.php:511 includes/vc-map/vc-map.php:528
+#: includes/vc-map/vc-map.php:544 includes/vc-map/vc-map.php:561
+#: includes/vc-map/vc-map.php:577 includes/vc-map/vc-map.php:603
+#: includes/vc-map/vc-map.php:620 includes/vc-map/vc-map.php:637
+#: includes/vc-map/vc-map.php:662 includes/vc-map/vc-map.php:679
+#: includes/vc-map/vc-map.php:696
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:27
+msgid "Single Product Title"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:43
+msgid "Single Product Rating"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:59
+msgid "Single Product Price"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:75
+msgid "Single Product Excerpt"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:91
+msgid "Single Product Add To Cart"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:107
+msgid "Single Product Meta"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:123
+msgid "Single Product Share"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:139
+msgid "Single Product Tabs"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:155
+msgid "Single Product Additional Information"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:171
+msgid "Single Product Description"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:187
+msgid "Single Product Reviews"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:203
+msgid "Single Product Related Products"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:210 includes/vc-map/vc-map.php:253
+#: includes/vc-map/vc-map.php:431
+msgid "Product Per Page"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:216 includes/vc-map/vc-map.php:259
+#: includes/vc-map/vc-map.php:437
+msgid "Columns"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:222 includes/vc-map/vc-map.php:265
+#: includes/vc-map/vc-map.php:443
+msgid "Products Ordering"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:226 includes/vc-map/vc-map.php:269
+#: includes/vc-map/vc-map.php:448
+msgid "Publish Date"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:227 includes/vc-map/vc-map.php:270
+#: includes/vc-map/vc-map.php:449
+msgid "Modified Date"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:228 includes/vc-map/vc-map.php:271
+#: includes/vc-map/vc-map.php:447
+msgid "Random"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:229 includes/vc-map/vc-map.php:272
+#: includes/vc-map/vc-map.php:450
+msgid "Alphabetic"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:230 includes/vc-map/vc-map.php:273
+#: includes/vc-map/vc-map.php:451
+msgid "Popularity"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:231 includes/vc-map/vc-map.php:274
+#: includes/vc-map/vc-map.php:452
+msgid "Rate"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:232 includes/vc-map/vc-map.php:275
+#: includes/vc-map/vc-map.php:453
+#: woocommerce-page-builder-templates/cart/cart.php:39
+#: woocommerce-page-builder-templates/cart/cart.php:98
+msgid "Price"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:246
+msgid "Single Product up-sells"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:294
+msgid "YITH WooCommerce Wishlist Single Add To Wishlist"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:316
+msgid "YITH WooCommerce Compare Single Add Compare Link"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:338
+msgid "WooCommerce Germanized Single Price Unit"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:355
+msgid "WooCommerce Germanized Single Legal Info"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:372
+msgid "WooCommerce Germanized Single Delivery Time Info"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:391
+msgid "Cart Table"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:393 includes/vc-map/vc-map.php:409
+#: includes/vc-map/vc-map.php:426
+msgid "DT Woo Cart"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:407
+msgid "Cart Totals"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:424
+msgid "Cross Sells"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:468
+msgid "Checkout Before Customer Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:470 includes/vc-map/vc-map.php:487
+#: includes/vc-map/vc-map.php:503 includes/vc-map/vc-map.php:519
+#: includes/vc-map/vc-map.php:536
+msgid "DT Woo Checkout"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:472
+msgid "Required. Add before 'Billing Information element'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:485
+msgid "Billing Information"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:501
+msgid "Shipping information form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:517
+msgid "Checkout After Customer Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:521
+msgid "Required. Add after 'Shipping information form'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:534
+msgid "Order review"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:551
+msgid "My Account Login Form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:553 includes/vc-map/vc-map.php:569
+msgid "DT Woo My Account Before Login"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:567
+msgid "My Account Register Form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:584
+msgid "My Account Dashboard"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:586 includes/vc-map/vc-map.php:611
+#: includes/vc-map/vc-map.php:628 includes/vc-map/vc-map.php:645
+#: includes/vc-map/vc-map.php:670 includes/vc-map/vc-map.php:687
+msgid "DT Woo My Account"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:588
+msgid "Shows account dashboard."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:592
+msgid "Custom My Account Dashboard"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:596
+msgid ""
+"Overridden woocommerce/myaccount/dashboard.php. Leave blank to use the "
+"template dashboard.php file"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:609
+msgid "My Account Orders"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:613 includes/vc-map/vc-map.php:630
+msgid "Shows orders on the account page."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:626
+msgid "My Account Downloads"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:643
+msgid "My Account Addresses"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:647
+msgid "My Addresses."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:668
+msgid "My Account Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:672
+msgid "Edit account form."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:685
+msgid "My Account Logout"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:436
+msgid "Your order"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:563
+#, php-format
+msgid "Hello %s%s%s (not %2$s? %sSign out%s)"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:873
+msgid "Invalid order."
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:873
+msgid "My Account"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:971
+msgid "Your password has been reset."
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:971
+msgid "Log in"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:996
+msgid "Enter a username or e-mail address."
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1012
+#: includes/vc-shortcodes/vc-shortcodes.php:1017
+msgid "Invalid username or e-mail."
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1030
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1075
+#: includes/vc-shortcodes/vc-shortcodes.php:1080
+#: includes/vc-shortcodes/vc-shortcodes.php:1096
+msgid "Invalid key"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-empty.php:28
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-empty.php:36
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:38
+#: woocommerce-page-builder-templates/cart/cart.php:80
+msgid "Product"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:40
+#: woocommerce-page-builder-templates/cart/cart.php:104
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:41
+#: woocommerce-page-builder-templates/cart/cart.php:121
+msgid "Total"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:61
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:93
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:139
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:139
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:139
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:145
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/before-form-checkout.php:19
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:27
+#: woocommerce-page-builder-templates/myaccount/form-login.php:46
+msgid "Login"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:38
+#: woocommerce-page-builder-templates/myaccount/form-register.php:52
+msgid "Password"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:29
+#: woocommerce-page-builder-templates/myaccount/form-register.php:66
+msgid "Register"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:38
+msgid "Username"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:45
+msgid "Email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:59
+msgid "Anti-spam"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DT WooCommerce Page Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://dawnthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"is the ideal Visual Composer add-on to effortlessly layout a custom product "
+"page, custom cart page, custom checkout page, custom my account page for "
+"WooCommerce and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DawnThemes"
+msgstr ""

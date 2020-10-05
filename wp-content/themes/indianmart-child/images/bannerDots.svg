@@ -1,0 +1,12 @@
+<svg id="bannerDots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 406.5 40" style="enable-background:new 0 0 406.5 40;fill:none;stroke:#EE5C2F;stroke-width:5;stroke-miterlimit:10;" xml:space="preserve">
+    <style type="text/css">
+        .dotsText{fill:#010101;font-family:'Athelas';font-size:23px;letter-spacing: 2.4px;stroke:none;}
+    </style>
+    <g>
+        <circle cx="23" cy="21.2" r="5"/>
+        <circle cx="42.5" cy="21.2" r="5"/>
+        <text transform="matrix(0.92 0 0 1 57.002 22.7)" class="dotsText">............................................</text>
+        <circle cx="386.1" cy="21.2" r="5"/>
+        <circle cx="366.6" cy="20.2" r="5"/>
+    </g>
+</svg>
